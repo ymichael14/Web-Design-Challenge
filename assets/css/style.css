@@ -8,5 +8,10 @@ body {
 .datadiv {
     position: relative;
     top: 25px;
-    left: 150px;
+    left: 10px;
+}
+
+.row{
+    display: flex;
+    justify-content: space-around;
 }
