@@ -1,0 +1,12 @@
+body {
+    background-color: lightgrey;
+}
+.textcolor {
+    color: cadetblue;
+}
+/* this is for the table of data in data.html */
+.datadiv {
+    position: relative;
+    top: 25px;
+    left: 150px;
+}
