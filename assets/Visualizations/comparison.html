@@ -37,14 +37,22 @@
       
     <div class="container ">
         <div class="row mt-4">
-            <div class="col-md-112 bg-white p-4">
+            <div class="col-md-12 bg-white p-4">
                 <h2 class="textcolor">Comparisons: Latitude vs X</h2>
-                <p>Click the graphs to get in depth analysis</p>
+                <p>Click the graphs to get in-depth analysis</p>
                 <hr>
-                <a href="../Visualizations/temp.html"><img src="../images/Fig1.png" alt="fig1" class="w-50 float-left"></a>
-                <a href="../Visualizations/humidity.html"><img src="../images/Fig2.png" alt="fig2" class="w-50 float-right"></a>
-                <a href="../Visualizations/cloud.html"><img src="../images/Fig3.png" alt="fig3" class="w-50 float-left"></a>
-                <a href="../Visualizations/wind.html"><img src="../images/Fig4.png" alt="fig4" class="w-50 float-right"></a>
+                <div class="row">
+                  <p class="comparisonlabels">vs. Max Temperature</p><p class="comparisonlabels">vs. Humidity</p>
+                </div>
+                <div class="row">
+                  <a class="col-md-6 col-sm-3" href="./temp.html"><img src="../images/Fig1.png" alt="fig1" class="w-100"></a>
+                  <a class="col-md-6 col-sm-3" href="./humidity.html"><img src="../images/Fig2.png" alt="fig2" class="w-100"></a>
+                  <a class="col-md-6 col-sm-3" href="./cloud.html"><img src="../images/Fig3.png" alt="fig3" class="w-100"></a>
+                  <a class="col-md-6 col-sm-3" href="./wind.html"><img src="../images/Fig4.png" alt="fig4" class="w-100"></a>
+              </div>
+              <div class="row">
+                <p class="comparisonlabels labeltemp">vs. Cloudiness</p><p class="comparisonlabels">vs. Wind Speed</p>
+              </div>
             </div>
         </div>
     </div>

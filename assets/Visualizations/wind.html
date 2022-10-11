@@ -4,8 +4,8 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="../css/style.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.2.1/dist/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+    <link rel="stylesheet" href="../css/style.css">
     <title>Wind Speed</title>
 </head>
 <body>
@@ -35,23 +35,33 @@
           </ul>
         </div>
       </nav>
+<!-- end of nav  -->
 
-      <div class="container ">
+
+      <div class="container-fluid">
         <div class="row mt-4">
-            <div class="col-md-8 bg-white p-4">
-                <h2 class="textcolor">Latitude vs Wind Speed </h2>
+            <div class="col-md-7 bg-white p-4">
+                <h2 class="textcolor">Latitude vs. Wind Speed</h2>
                 <hr>
-                <img src="../images/Fig4.png" alt="fig4-lat-vs-wind" class="w-100 float-right">
+                <img src="../images/Fig4.png" alt="fig4" class="w-75">
+                <br>
+                <p>In this project, we used the OpenWeather API to request data on the weather conditions in selected cities. </p>
+                <p>On this particular day, wind speeds were low. The majority of cities had winds under 15 mph. There was a small trend when you got to the larger latitudes more occurences of high wind speed.
+                  When doing doing research, we discovered the Coriolis effect:" is zilch at the equator and increases with latitude to a maximum at the poles. Consequently, for a given wind speed, 
+                  the Coriolis force will be stronger at higher latitudes than at lower latitudes."
+                </p>
             </div>
-            <div class="col-md-3 bg-white p-4">
+            
+            <div class="col-md-4 bg-white p-4">
                 <h2 class="textcolor">Visualizations</h2>
                 <hr>
-                <a href="../Visualizations/temp.html"><img src="../images/Fig1.png" alt="fig1" class="w-50 float-left"></a>
-                <a href="../Visualizations/humidity.html"><img src="../images/Fig2.png" alt="fig2" class="w-50 float-right"></a>
-                <a href="../Visualizations/cloud.html"><img src="../images/Fig3.png" alt="fig3" class="w-50 float-left"></a>
-                <a href="../Visualizations/wind.html"><img src="../images/Fig4.png" alt="fig4" class="w-50 float-right"></a>
+                <div class="row">
+                  <a class="col-md-6 col-sm-3" href="./temp.html"><img src="../images/Fig1.png" alt="fig1" class="w-100"></a>
+                  <a class="col-md-6 col-sm-3" href="./humidity.html"><img src="../images/Fig2.png" alt="fig2" class="w-100"></a>
+                  <a class="col-md-6 col-sm-3" href="./cloud.html"><img src="../images/Fig3.png" alt="fig3" class="w-100"></a>
+                  <a class="col-md-6 col-sm-3" href="./wind.html"><img src="../images/Fig4.png" alt="fig4" class="w-100"></a>
+              </div>
             </div>
-
         </div>
     </div>
     

@@ -11,7 +11,21 @@ body {
     left: 10px;
 }
 
-.row{
+.row {
     display: flex;
     justify-content: space-around;
+}
+
+.comparisonlabels{
+    color: cadetblue;
+    font-size: 25px;
+    font-family: Georgia;
+
+}
+
+@media(max-width: 767px){
+
+.comparisonlabels{
+    visibility: hidden;
+}
 }
